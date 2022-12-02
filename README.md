@@ -1,7 +1,11 @@
 ## Dijkstra
 
-![Dijkstra](Dijkstra.png)
+![Dijkstra](img/Dijkstra.png)
 
 ## Floyd
 
-![Folyd](Folyd.png)
+![Folyd](img/Folyd.png)
+
+## Flow
+
+![Flow](img/flow_ek.png)
