@@ -61,8 +61,8 @@ void Dijkstra(vector<vector<Edge> > &adjTable, int edge_num, int start_idx){
              st.push(p);
              p = pre[p];
          }
-         cout << "The distance between" << start_idx <<
-         "and " << u << " is " << d[u] << " and path is :" << start_idx;
+         cout << "The distance between " << start_idx <<
+         " and " << u << " is " << d[u] << " and path is :" << start_idx;
          while(!st.empty()){
              cout  << " -> "<< st.top();
              st.pop();
@@ -111,5 +111,24 @@ int main(){
 4 3 4
 3 5 1
 4 5 8
+
+
+6 16
+0 2 5
+2 0 5
+0 1 7
+1 0 7
+1 2 10
+2 1 10
+1 3 2
+3 1 2
+1 4 7
+4 1 7
+2 5 8
+5 2 8
+3 4 6
+4 3 6
+4 5 3
+5 4 3
 
 */
